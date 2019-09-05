@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <title>project webdesign</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link id="pagestyle" rel="stylesheet" href="stylezakelijk.css">
+	<script>
+		function swapStyleSheet(sheet){
+			document.getElementById('pagestyle').setAttribute('href', sheet);
+		}
+	</script>
+    </head>
+
+<body>
+        <header>
+            <img src="volkswagenlogo.png" height="85" width="80">
+            <h1>Volkswagen</h1>
+        </header>
+
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="overdeklant.html">Over Volkswagen</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="productenendiensten.html">Producten en Diensten</a></li>
+    </ul>
+</nav>
+
+<article class="homeclass">
+    <h2>Welkom bij de Volkswagendealer</h2>
+        <p>Op deze site kunt u informatie zien over de geschiedenis van Volkswagen zelf en over
+           3 modellen van Volkswagen die het meeste verkocht worden.</p>
+</article>
+
+    
+<footer>
+    <button onclick="swapStyleSheet('stylezakelijk.css')">Zakelijk</button>
+    <button onclick="swapStyleSheet('stylekleurig.css')">Kleurig</button>
+</footer>
+       
+</body>
+
+</html>

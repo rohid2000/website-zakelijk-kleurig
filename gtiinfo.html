@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="nl">
+    <head>
+    <meta charset="UTF-8">
+    <title>Info Golf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link id="pagestyle" rel="stylesheet" href="stylezakelijk.css">
+	<script>
+		function swapStyleSheet(sheet){
+			document.getElementById('pagestyle').setAttribute('href', sheet);
+		}
+	</script>
+    </head>
+
+<body>
+
+    <main>
+        <img src="golfgti.png" height="450" width="500">
+
+        <h2 id="position2">Informatie over Volkswagen Golf GTI</h2>
+
+                <div class="table-edit2">
+            <table>
+                <tr>
+                    <th>Model</th>
+                    <th>Prijs</th>
+                    <th>Bouwjaar</th>
+                    <th>Versnellingen</th>
+                    <th>topsnelheid</th>
+                    <th>Gewicht</th>
+                    <th>Vermogen</th>
+                    <th>Brandstoflabel</th>
+                </tr>
+                <tr>
+                    <td>2.0 TSI</td>
+                    <td>€4281</td>
+                    <td>2018</td>
+                    <td>6</td>
+                    <td>250 km/h</td>
+                    <td>1600 kg</td>
+                    <td>245pk</td>
+                    <td>Label E</td>
+                </tr>
+            </table>
+                </div>
+
+    <footer class="buttonpend">
+        <button onclick="swapStyleSheet('stylezakelijk.css')">Zakelijk</button>
+        <button onclick="swapStyleSheet('stylekleurig.css')">Kleurig</button>
+    </footer>
+    
+</body>

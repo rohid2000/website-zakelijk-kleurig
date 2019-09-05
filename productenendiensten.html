@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <title>project webdesign</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link id="pagestyle" rel="stylesheet" href="stylezakelijk.css">
+	<script>
+		function swapStyleSheet(sheet){
+			document.getElementById('pagestyle').setAttribute('href', sheet);
+		}
+	</script>
+    </head>
+
+<body>
+        <header>
+            <img src="volkswagenlogo.png" height="85" width="80">
+            <h1>Volkswagen</h1>
+        </header>
+
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="overdeklant.html">Over Volkswagen</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="productenendiensten.html">Producten en Diensten</a></li>
+    </ul>
+</nav>
+
+
+<section>
+    <h2>Modellen</h2>
+            <div class="golfverplaats">
+                <a href="golfinfo.html">
+        <img src="golf.png" height="200" width="250">
+        <p>Golf</p>
+                </a>
+            </div>
+                <a href="gtiinfo.html">
+        <img src="golfgti.png" height="180" width="250">
+        <p>GTI</p>
+                </a>
+                <a href="poloinfo.html">
+        <img src="polo.png" height="150" width="225">
+        <p>Polo</p>
+                </a>
+</section>
+
+<footer class="buttonpend">
+    <button onclick="swapStyleSheet('stylezakelijk.css')">Zakelijk</button>
+    <button onclick="swapStyleSheet('stylekleurig.css')">Kleurig</button>
+</footer>
+
+</body>
+
+</html>

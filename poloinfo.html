@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="nl">
+    <head>
+    <meta charset="UTF-8">
+    <title>Info Golf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link id="pagestyle" rel="stylesheet" href="stylezakelijk.css">
+	<script>
+		function swapStyleSheet(sheet){
+			document.getElementById('pagestyle').setAttribute('href', sheet);
+		}
+	</script>
+    </head>
+
+<body>
+
+    <main>
+        <img src="polo.png" height="450" width="550">
+
+        <h2 id="position3">Informatie over Volkswagen Polo</h2>
+
+                <div class="table-edit3">
+            <table>
+                <tr>
+                    <th>Model</th>
+                    <th>Prijs</th>
+                    <th>Bouwjaar</th>
+                    <th>Versnellingen</th>
+                    <th>topsnelheid</th>
+                    <th>Gewicht</th>
+                    <th>Vermogen</th>
+                    <th>Brandstoflabel</th>
+                </tr>
+                <tr>
+                    <td>1.0 MPI</td>
+                    <td>€16221</td>
+                    <td>2018</td>
+                    <td>5</td>
+                    <td>164 km/h</td>
+                    <td>1105 kg</td>
+                    <td>65pk</td>
+                    <td>Label C</td>
+                </tr>
+            </table>
+                </div>
+
+    <footer class="buttonpend">
+        <button onclick="swapStyleSheet('stylezakelijk.css')">Zakelijk</button>
+        <button onclick="swapStyleSheet('stylekleurig.css')">Kleurig</button>
+    </footer>
+    
+</body>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <title>project webdesign</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link id="pagestyle" rel="stylesheet" href="stylezakelijk.css">
+	<script>
+		function swapStyleSheet(sheet){
+			document.getElementById('pagestyle').setAttribute('href', sheet);
+		}
+	</script>
+    </head>
+
+<body>
+        <header>
+            <img src="volkswagenlogo.png" height="85" width="80">
+            <h1>Volkswagen</h1>
+        </header>
+
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="overdeklant.html">Over Volkswagen</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="productenendiensten.html">Producten en Diensten</a></li>
+    </ul>
+</nav>
+
+<article class="geschiedenis">
+    <h2>De geschiedenis van Volkswagen</h2>
+        <p>Het begon allemaal bij de Oostenrijkse professor en auto technicus, Fredinand Porsche.
+        Hij had in 1922 plannen voor een goedkope auto voorgesteld, maar niemand had heir belanstelling
+        voor zelfs zijn werkgever Austro-Daimler niet. Toen Porsche bij Mercedes-Benz over zijn 
+        goedkope droomauto begon, betekende dit het einde van hun samenwerking. Porsche probeerde bij
+        NSU en Zündapp waar een aantal prototypes werden uitgebracht. hij begon voor zichzelf
+        en kreeg in 1934 van Adolf Hitler de opdracht een Kraft durch Freude wagen te ontwerpen.
+        een wagen voor het volk. de eisen voor deze auto waren fors. de KDF-wagen moest een topsnelheid
+        van 100 km/h halen, twee volwassenen en een kind kunnen vervoeren of 3 soldaten en een mitrailleur,
+        moest een luchtgekoelde motor hebben zodat de auto 's winters buiten kon staan, mocht maximaal
+        tussen de 6 en 7 liter benzine per 10 km verbruiken en mocht niet meer kosten dan
+        900 Reichsmark (ongeveer 460 euro).
+        Het ontwerp voor deze auto had Porsche al eerder gereed, in 1932 had hij een vierspersoons auto
+        ontworpen die sterk door ontwerpen van Béla Barényi en een prototype van Tatra-ontwerper
+        Hans Ledwinka was geïnspireerd met een luchtgekoelde viercilinder moter achterin. Er
+        waren toen drie prototypen gebouwd door Zündapp. NSU was ook in het model geïnteresseerd,
+        maar toen NSU werd overgenomen door Fiat was dit het einde van de NSU-Volksauto.
+        Het aanbod van Hitler kwam dus net op tijd.</p>
+</article>
+
+
+<footer class="geschiedenisbuttons">
+    <button onclick="swapStyleSheet('stylezakelijk.css')">Zakelijk</button>
+    <button onclick="swapStyleSheet('stylekleurig.css')">Kleurig</button>
+</footer>
+
+
+</body>
+
+</html>

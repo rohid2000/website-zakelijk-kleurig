@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+header, h1, h2, li, nav, a, footer, article, p, section, main {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: black;
+}
+
+header {
+    background-color: #888888;
+    height: 100px;
+}
+
+h1 {
+    display: inline;
+}
+
+li {
+    font-size: 110%;
+    margin-right: 10px;
+}
+
+
+nav ul {
+	color: #00AAFF;
+}
+
+nav ul li {
+	list-style-type: none;
+	width:90%;
+	margin: 0 auto;
+}
+
+nav ul li a {
+	display: block;
+	background: #00AAFF;
+	color: white;
+	text-decoration: none;
+	padding: 5% 10%;
+	margin: 2% 5%;
+	border: solid 1px black;
+	transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+	background: black;
+	color: white;
+	border: solid 1px #00AAFF;
+}
+
+footer{
+	position:fixed;
+	bottom: 10px;
+	margin-left: 70%;
+}
+
+.golfverplaats {
+	margin-right: 60%;
+}
+
+
+table th {
+	text-align: left;
+	background-color: #2299DD;
+	color: black;
+	padding: 4px 0px 1px;
+}
+
+table td {
+	border: 1px solid black;
+	padding: 4px 8px;
+}
+
+
+.table-edit {
+	text-align: center;
+	color: black;
+}
+
+#position {
+	margin-top: 1%;
+	color: black;
+}
+
+.table-edit3 {
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+#position3 {
+	margin-top: 0%;
+	color: darkgrey;
+}
+
+
+
+/* -----------------------------------------------------*/
+/*This part is used for the tablet version*/
+/* -----------------------------------------------------*/
+@media screen and (min-width: 700px) {
+
+	nav ul {
+		padding: 1%;
+	}
+
+	nav ul li {
+		display: inline-block;
+		width: 48%;
+	}
+
+	.golfverplaats {
+		margin-right: 60%;
+	}
+
+	footer {
+		display: inline-block;
+		margin-left: 80%;
+	}
+
+
+	h2 {
+		margin-top: 80%;
+	}
+
+	section {
+		margin-right: 92%;
+	}
+
+	main {
+		margin-right: 73%;
+	}
+
+	.geschiedenis {
+		margin-right: 60%;
+	}
+
+	.contact {
+		margin-right: 70%;
+	}
+
+	table th {
+		text-align: left;
+		background-color: #2299DD;
+		color: white;
+		padding: 2px 8px 2px;
+	}
+
+	table td {
+		border: 1px solid black;
+		padding: 4px 3px;
+	}
+
+	.table-edit3 {
+		text-align: center;
+	}
+
+	#position3 {
+		margin-top: 0%;
+		color: black;
+	}
+
+	label {
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+/* -----------------------------------------------------*/
+/*This part is used for the pc version*/
+/* -----------------------------------------------------*/
+
+@media screen and (min-width: 900px) {
+
+	nav {
+		display: inline-block;
+		width: 20%;
+	}
+
+	nav ul {
+		padding: 1%;
+	}
+
+	nav ul li {
+		display:inline-block;
+		text-align: center;
+		width: 80%;
+	}
+
+	nav ul li a:hover {
+		box-shadow: 5px 5px 25px #888888;
+	}
+
+	.homeclass {
+		margin-right: 80%;
+	}
+	
+	.golfverplaats {
+		margin-right: 90%;
+	}
+
+	footer {
+		display: inline-block;
+		bottom: 10px;
+		margin-left: 72%;
+	}
+
+	.buttonpend {
+		display: inline-block;
+		bottom: 10px;
+		margin-left: 93%;
+	}
+
+	.contact{
+		margin-right: 90%;
+	}
+
+	.buttons {
+		display: inline;
+		margin-left: 300%;
+	}
+
+	.geschiedenis {
+		margin-right: 80%;
+	}
+
+
+	.geschiedenisbuttons {
+		display: inline-block;
+		margin-left: 50%;
+	}
+
+	.table-edit {
+		text-align: center;
+	}
+
+	#position {
+		margin-top: -10%;
+	}
+
+	.table-edit2 {
+		text-align: center;
+	}
+
+	#position2 {
+		margin-top: 0%;
+	}
+
+	.table-edit3 {
+		text-align: center;
+	}
+
+	#position3 {
+		margin-top: 0%;
+	}
